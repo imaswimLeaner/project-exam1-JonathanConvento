@@ -1,0 +1,482 @@
+/* 01 TYPOGRAPHY
+------------------------------------------*/
+
+/****** Fonts Styles ******
+
+font-family: 'Coda Caption', sans-serif;
+
+font-family: 'Lobster Two', cursive;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Source Code Pro', monospace;
+
+******************/
+/*global styles-------------------------------------*/
+
+aside,
+article,
+section,
+header,
+footer,
+nav,
+main
+div,
+section,
+article,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #191919;
+    color: #fff;
+    margin: 0 auto;
+    
+  }
+  
+header {
+    background-color: #232323;
+    margin: 0 auto;
+  }
+h1 {
+    font-size: 1.8rem;
+    letter-spacing: 5px ;
+}
+  
+h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  
+p {
+    font-size: 1.2;
+    
+  }
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    font-weight: bold;
+  }
+
+  .name2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    font-weight: normal;
+  
+
+  }
+  .desummary {
+    font-family: 'Source Code Pro', monospace;
+    font-size: .8em;
+    margin: 5px 100px;
+    letter-spacing: 5px;
+    
+  }
+  .dateapi {
+    font-family: 'Coda Caption', sans-serif;
+    font-style: italic;
+    font-size: .7em;
+    letter-spacing: 2px;
+    color: #fff;
+
+  }
+
+ 
+
+/* 03 BUTTONS & LINKS
+------------------------------------------*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  background-color: #444;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+/* 04 FOOTER
+------------------------------------------*/
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #232323;
+  height: 100%;
+  justify-content: space-around;
+  text-align: center;
+  
+  color: #919191;
+  margin: 0 auto;
+}
+
+
+
+.social:hover {
+  color: #fff;
+}
+
+.copy {
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  font-size: 0.7rem;
+}
+
+
+
+footer {
+  margin: 0 auto 20px auto;
+}
+  
+  .footerContainer {
+    display: flex;
+    
+  }
+
+  .item {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .copy {
+    padding-bottom: 10px;
+
+ }
+  .transparent {
+    color: #fff;
+  }
+
+ 
+
+  
+
+ 
+  /* 02 NAVIGATON
+  ------------------------------------------*/
+  /*----------------------------------------------------mobile styles----------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+ 
+  body {
+    font-size: 1em;
+    width: 100%;
+    margin: 0 auto;
+	
+	}
+  
+
+  .navbar {
+    display: flex;
+    position: relative;
+    clear: both;
+    margin: 0  auto;
+  }
+ 
+
+  #hamburgerDrop{
+    size: 20px;
+  }
+
+  #hamburgerDrop:hover {
+    color: #8bdcbb;
+    transition: .2s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  Header {
+    margin: 0 auto;
+    
+  }
+   
+  .logo {
+    max-width: 60%;
+    margin: 20px auto 30px auto;
+    margin-left: 20px;
+    grid-column-start: 1;
+    size: inherit;
+    
+    
+  }
+  
+  #menu {
+    display: block;
+    padding: 20px 15px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: end;
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    clear: both;
+  }
+  
+  .fa-bars {
+    margin-right: 10px;
+  }
+  
+  #navigation {
+    list-style: none;
+    padding-left: 2px;
+    padding: 20px;
+    display: none;
+    
+  }
+  
+  nav li {
+      display: flex;
+      padding: 15px 10px;
+      letter-spacing: 1px;
+      font-size: .8em;
+      margin-bottom: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+  }
+
+  nav li a:hover {
+    color: #8bdcbb;
+    transition: .2s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+  }
+  
+  .active {
+    color: rgb(210, 170, 141);
+  }
+  
+  .social-links {
+    margin-top: 5px;
+    font-size: 0.7em;
+   
+
+  }
+  footer {
+    margin: 0 auto ;
+    font-size: .6em;
+  }
+
+  
+
+  .footerContainer {
+    font-size: .7em;
+  }
+
+  .copy {
+    font-size: .6em;
+    margin: 0 auto;
+    color: white;
+
+
+  }
+  
+}
+/*************************** tablet style *****************************/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+  body {
+    width: 0 auto;
+    font-size: 1.2em;
+	}
+	
+  
+  .navbar {
+    display: grid;
+    grid-template-columns: 50% 45% 5%;
+    grid-template-rows: 50px;
+    position: relative;
+    clear: both;
+    margin: 0;
+  }
+  
+  .logo {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    grid-column-start: 1;
+    size: inherit;
+    
+  }
+  
+  #menu {
+    display: block;
+    padding: 20px 15px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: end;
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    clear: both;
+  }
+  
+  .fa-bars {
+    margin-right: 10px;
+  }
+  
+  #navigation {
+    list-style: none;
+    padding-left: 2px;
+    padding: 10px;
+    display: none;
+    
+  }
+  
+  nav li {
+      display: flex;
+      padding: 20px 15px;
+      letter-spacing: 1px;
+      font-size: .9em;
+      margin-bottom: 15px;
+  }
+  
+  nav li a:hover {
+    color: #8bdcbb;
+    transition: .2s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  
+  #hamburgerDrop{
+    size: 30px;
+  }
+
+  #hamburgerDrop:hover {
+    color: #8bdcbb;
+    transition: .2s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+ 
+  
+  
+  
+
+}
+
+/*************************** Desktop style ************************/
+@media only screen and (min-width: 769px) and (max-width: 2580px) {
+   
+    body {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 1.4em;
+      
+    }
+   
+
+    #menu {
+      display: none;
+    }
+  
+    #navigation, nav li {
+      display: inline;
+      padding-left: 5px;;
+      padding-top: 5px;
+      overflow: hidden;
+      font-size: .9em;
+     
+      
+    }
+  
+    nav li a:hover {
+      
+      color: #8bdcbb;
+      transition: .2s ease-out;
+      text-decoration: underline;
+      cursor: pointer;
+
+    }
+  
+    .active {
+      color: rgb(210, 170, 141);
+    }
+    
+    .topHeader {
+      align-items: center;
+      margin-bottom: 1.2em;
+     
+    }
+
+    header {
+      margin-bottom: 15px;
+    }
+
+   
+    #navigation {
+      display: flex;
+      margin-bottom: 25px;
+      
+    }
+    
+    .transparent {
+      padding: 2px;
+	    background: transparent;
+	    display: flex;
+	    align-items: center;
+    }
+    .social-links {
+      display: none;
+    }
+    footer {
+      margin: 0 auto ;
+      background-color: #232323;
+      width: 100%;
+
+      
+    }    
+  
+  } 
+
+  
+  
+  
+  
+  

@@ -1,0 +1,141 @@
+/* Dragon  PAGES
+------------------------------------------*/
+
+.dragonpage {
+   
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+ 
+.dragonDiv {
+    height: 100%;
+    width: 0 auto;
+    text-align: center;
+}
+
+  .dragonImage {
+    margin-bottom: 1em;
+    height: 290px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+  }
+  
+  .dragonStyleApi {
+    margin-bottom: 20px;
+    height: 100%;
+    margin: 50px 50px;
+  }
+
+
+  .dragon-text {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
+    margin: 5px 100px;
+    letter-spacing: 5;
+
+  }
+
+  
+  
+ 
+  
+  .dragonDiv h2 {
+    margin: 50px 100px 20px 0px;
+  }
+  
+  .dragonDiv p {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .details {
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 480px) {
+    
+    body {
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .dragonpage {
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         padding-top: 5px;
+        height: 100%;
+        text-align: center;
+        margin-top: 50px;
+        width: 0 auto;
+       
+    }
+    .dragonDiv {
+        height: 100%;
+        width: 0 auto;
+        text-align: center;
+    }
+
+    
+   
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+   
+    .dragonpage {
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 5px;
+        height: 100%;
+        text-align: center;
+    }
+  
+    .dragonDiv {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+    .dragonpage {
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 5px;
+        height: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+  
+    .dragonDiv {
+        height: 100%;
+        width: 0 auto;
+        text-align: center;
+    }
+  }
+  
+  

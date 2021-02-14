@@ -1,0 +1,169 @@
+/* 05 HOME PAGE
+------------------------------------------*/
+
+.homepage {
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  height: 100%;
+  text-align: center;
+  }
+  
+  .space1 {
+    background-image: linear-gradient(to top, rgba(176, 180, 203, 0.52),rgba(45, 44, 44, 0.73)), url(../imports/images/nightlauches-gpsIII-4mission.jpg);
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    height: 500px;
+  }
+  
+  .space1 h1 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  
+  
+  .history-made {
+   
+    background-image: linear-gradient(to top, rgba(176, 180, 203, 0.52), rgba(45, 44, 44, 0.73)), url(../imports/images/crew-1mission.jpg);
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .history-made h2, a {
+     text-align: center;
+     padding: 40px 40px;
+     
+     
+  }
+
+  .article-text {
+    padding-top: 30px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.));
+  }
+  
+  
+  .dragonDetailshp {
+    background-image: linear-gradient(to top, rgba(176, 180, 203, 0.52), rgba(45, 44, 44, 0.73)), url(../imports/images/crs1mission.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 500px;
+  }
+
+  .vid-text {
+    font-family: 'Coda Caption', sans-serif;
+    font-style: normal 25px;
+    align-content: center;
+    
+  }
+  .responsive-video {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+      
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 200px) and (max-width: 480px) {
+    
+   
+    
+    .homepage {
+      font-family: 'Source Code Pro', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-top: 5px;
+      height: 100%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 1.2em;
+    }
+  
+    .logo {
+      max-width: 100%;
+    }
+
+    .space1 h1 {
+      margin-top: 20px;
+      font-size: .9rem;
+    }
+
+    .article-text h2 {
+      font-size: .8em;
+    }
+
+    .history-made h2, a {
+      text-align: center;
+      padding: 40px 40px;
+      margin: 20px 40px;
+      font-size: .9rem;
+      margin-top: 40px;
+    }
+
+    .space1 p {
+      display: none;
+    }
+
+    .space1 h5 {
+      font-size: .7em;
+
+    }
+
+    .vid-text {
+      font-size: 5px;
+
+    }
+
+    footer {
+      font-size: .4em;
+    }
+
+    
+  }
+  
+  
+  /*************************** tablet style *****************************/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   
+  .homepage {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+      
+  .logo {
+      max-width: 30%;
+      padding-bottom: 20px;
+    }
+    .space1 p {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+ 
+  

@@ -1,0 +1,131 @@
+/* 06 ABOUT
+------------------------------------------*/
+.aboutpage {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: 100%;
+    text-align: center;
+}
+  
+  .about-spacex {
+    background-image: linear-gradient(to top, rgba(176, 180, 203, 0.52), rgba(45, 44, 44, 0.73)), url(../imports/images/spaceXheadquarters2048x1365.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 400px;
+    padding-top: 70px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  video {
+    position: relative; 
+    right: 0; 
+    top: 0; 
+    min-width: 100%; 
+    margin: 0 auto;
+  }
+
+  .elonComment {
+    text-align: center;
+  }
+  
+  .about-text {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    letter-spacing: .5em;
+    
+  }
+
+  .companyinfojs {
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 50px;
+    margin: 50px 25px -75px 25px;
+    letter-spacing: .2em;
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 425px) {
+  
+    .aboutpage {
+      text-align: center;
+    }
+    .spacex {
+      grid-template-columns: 10% 80% 10%;
+      padding-top: 70px;
+      text-align: center;
+    }
+  
+    
+      
+  }
+
+
+  
+  
+  @media only screen and (min-width: 540px) {
+  
+    .spacex {
+      grid-template-columns: 20% 60% 20%;
+      padding-top: 70px;
+    }
+    
+  
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+  
+    .spacex{
+      grid-template-columns: 30% 40% 30%;
+      padding-top: 70px;
+    }
+  
+    
+  }
+  
+  
+  @media only screen and (min-width: 1024px) {
+  
+    .aboutpage {
+      font-family: 'Source Code Pro', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-top: 5px;
+      height: 100%;
+      text-align: center;
+    }
+
+    video {
+      position: relative; 
+      right: 0; 
+      top: 0; 
+      width: 500px; 
+      
+    }
+    .spacex {
+      background-image: url(/images/spaceXheadquarters2048x1365.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 230px;
+      padding-top: 70px;
+      width: 100%;
+      text-align: center;
+      
+    }
+    
+    
+  
+  }
+  
+  
+  

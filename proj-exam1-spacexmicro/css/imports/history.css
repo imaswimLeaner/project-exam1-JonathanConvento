@@ -1,0 +1,149 @@
+/* 07 History page
+------------------------------------------*/
+
+.historypage {
+  
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  height: 100%;
+  text-align: center;
+  }
+  
+  .history {
+    padding: 40px; 
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(176, 180, 203, 0.52), rgba(106, 105, 105, 0.73)), url(../imports/images/starshipSN8mission.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    
+  }
+  
+  .history-text {
+    
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5em;
+    font-size: 1.4em;
+    
+  }
+  
+  .historyRes {
+    padding: 0px 20px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: end;
+    text-align: center;
+    letter-spacing: .2em;
+    border-bottom: 1px solid white;
+    font-size: 1.1em;
+    
+    
+    
+  }
+
+  .historyRes p {
+    letter-spacing: .2em;
+    font-style: italic;
+    justify-content: center;
+    
+  }
+
+  
+
+  
+  
+  /*********************** Mobile Style ****************/
+  
+  @media only screen and (min-width: 200px) and (max-width: 480px) {
+  
+    
+    .historypage {
+      display: grid;
+      grid-template-columns: 5% 90% 5%;
+      grid-template-rows: 250px 5600px;
+    }
+  
+    .history {
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      padding-top: 60px;
+    }
+    .historyRes .history-text{
+    font-size: .5em;
+    }
+    
+  
+  }
+  
+  
+   
+  /*************************** tablet style *****************************/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   
+    
+    .historypage {
+      display: grid;
+      grid-template-columns: 30% 40% 30%;
+      grid-template-rows: 350px 5600px;
+    }
+  
+    .history {
+      display: flex;
+      grid-template-columns: 35% 30% 35%;
+      padding-top: 100px;
+    }
+  
+    .historyresults{
+      padding-top: 50px;
+    }
+
+    .history-text {
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: .5em;
+      font-size: 1.4em;
+      justify-content: center;
+      
+    }
+  
+  }
+  
+   /*************************** Desktop style ************************/
+
+@media only screen and (min-width: 769px) and (max-width: 2180px) {
+   
+   
+    
+  
+    .historypage {
+      display: grid;
+      grid-template-columns: 35% 30% 35%;
+      grid-template-rows: 350px 5600px;
+    }
+  
+    .history {
+      display: grid;
+      grid-template-columns: 40% 20% 40%;
+      padding-top: 100px;
+    }
+  
+    .historyresults p {
+      letter-spacing: .2em;
+      font-style: italic;
+      justify-content: center;
+    }
+
+    .historyresults{
+      padding-top: 50px;
+    }
+  
+  }
+
+  

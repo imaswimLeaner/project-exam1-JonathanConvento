@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.contactpage {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: auto;
+    text-align: center;
+    margin: 40px auto 25px auto ;
+}
+
+.successpage {
+      
+  background-image: linear-gradient(to bottom, rgba(176, 180, 203, 0.52), rgba(106, 105, 105, 0.73)), url(../imports/images/dragonSpacex.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin: 0 auto;
+  
+}
+
+
+
+textarea {
+    height: 300px;
+    font-size: 15px;
+  }
+
+
+form {
+    padding: 2em;
+    background: rgb(126, 126, 126);
+    border-radius: 1rem;
+}
+
+input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+button {
+       
+    background-color: #444;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.vid-textsuc h2 {
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+    
+      
+.button:hover {
+    background: #8bdcbb;
+    transition: all .2s ease-out;
+       
+      }
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-error {
+    display: none;
+    color: rgb(252, 67, 67);
+    font-size: .9rem;
+    margin-top: 2px;
+    letter-spacing: 3px;
+}
+.message {
+	background: green;
+	padding: 1rem;
+	color: white;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    background-color: #262626;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    overflow: hidden;
+  }
+  
+  textarea {
+    height: 300px;
+  }
+
+ /*----------------------------------------------------mobile styles----------------------------------------------------*/
+ @media only screen and (min-width: 200px) and (max-width: 480px) {
+    
+    
+    .contactpage {
+      font-family: 'Source Code Pro', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-top: 5px;
+      height: 100%;
+      text-align: center;
+      margin: 0 auto;
+      
+    }
+
+
+    
+    .successpage {
+      
+      background-image: linear-gradient(to bottom, rgba(176, 180, 203, 0.52), rgba(106, 105, 105, 0.73)), url(../imports/images/dragonSpacex.jpg);
+      background-size: cover;
+      background-position: center;
+      font-family: 'Source Code Pro', monospace;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      height: 100%;
+      text-align: center;
+      margin-top: 50px;
+      margin: 0 auto;
+      
+    }
+  
+    .sent {
+      text-align: center;
+      height: 500px;
+    
+    }
+
+    .sent h1 p {
+      font-size: 20px;
+    }
+    
+    .vid-textsuc h2 {
+      font-size: 15px;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    
+    input, textarea {
+    
+      font-size: .7em;
+    }
+    .form-error {
+      display: none;
+      color: rgba(255, 6, 6, 0.97);
+      font-size: .5rem;
+      margin-top: 2px;
+      letter-spacing: 1px;
+  }
+
+    } 
+    
+    /*************************** tablet style *****************************/
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+      
+    
+      .successpage {
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        height: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin: 0 auto;
+       
+      }
+  
+      .sent {
+        text-align: center;
+        height: 500px;
+        
+  
+      }
+  
+    
+    }
+    
+    /*************************** Desktop style ************************/
+  @media only screen and (min-width: 769px) and (max-width: 2180px) {
+      
+        
+        
+        .contactform {
+            width: 60%;
+        }
+      
+      
+    
+        .successpage {
+            font-family: 'Source Code Pro', monospace;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            height: 100%;
+            text-align: center;
+            margin-top: 50px;
+            margin: 0 auto;
+           
+          }
+  
+      .sent {
+        text-align: center;
+        height: 500px;
+            
+        
+  }
+
+  .form-error {
+    display: none;
+            color: rgba(255, 6, 6, 0.97);
+            font-size: 1.2rem;
+            margin-top: 2px;
+            letter-spacing: 1px;
+  }
+      
+    
+} 
+    
